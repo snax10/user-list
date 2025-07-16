@@ -22,7 +22,13 @@ Este projeto é uma aplicação React desenvolvida como parte de um case técnic
 - **Componente de Favoritos**: Lista de usuários favoritos com opção de remoção
 
 ## 🔗 API Utilizada
-- JSONPlaceholder - Users Endpo
+- JSONPlaceholder - Users Endpoint
+
+## 🧪 Testes
+(Opcional) Caso tenha implementado testes, descreva aqui como rodá-los.
+
+## 📄 Considerações Finais
+Este projeto foi desenvolvido com foco em boas práticas de arquitetura, separação de responsabilidades, uso adequado de Redux e Redux-Saga, e estilização com Styled Components. A estrutura foi pensada para ser escalável e de fácil manutenção.
 
 ## 📦 Como Rodar o Projeto
 1. **Clone o repositório:**
@@ -35,9 +41,3 @@ yarn install
 
 3. **Inicie o servidor de desenvolvimento:**
 yarn run dev
-
-🧪 Testes
-(Opcional) Caso tenha implementado testes, descreva aqui como rodá-los.
-
-📄 Considerações Finais
-Este projeto foi desenvolvido com foco em boas práticas de arquitetura, separação de responsabilidades, uso adequado de Redux e Redux-Saga, e estilização com Styled Components. A estrutura foi pensada para ser escalável e de fácil manutenção.
