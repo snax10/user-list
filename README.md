@@ -30,11 +30,13 @@ Este projeto foi desenvolvido com foco em boas práticas de arquitetura, separa�
 ## 📦 Como Rodar o Projeto
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/snax10/user-list.git
+cd user-list.git
 
 2. **Instale as dependências:**
 yarn install
 
 3. **Inicie o servidor de desenvolvimento:**
 yarn run dev
+
+4. **Versão do node = node v24.4.1
