@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const CardContainer = styled.div`
+    text-align: center;
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
     color: #333333;
-    width: 100%;
+    width: 500px;
 `;
 
 export const ContainerImage = styled.div`

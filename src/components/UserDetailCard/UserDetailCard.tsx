@@ -21,7 +21,6 @@ class UserDetailCard extends React.Component<UserDetailCardProps> {
                 <p><strong>Website:</strong> {user.website}</p>
                 <h3>Endereço:</h3>
                 <p>{user?.address?.suite} {user?.address?.street}, {user?.address?.city} - {user?.address?.zipcode}</p>
-                <h3>Empresa:</h3>
                 <p><strong>Nome:</strong> {user?.company?.name}</p>
                 <p><strong>Frase de impacto:</strong> {user?.company?.catchPhrase}</p>
                 <p><strong>Atividades:</strong> {user?.company?.bs}</p>

@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import type { RootState } from '../../redux/store';
 import type { User } from '../../redux/users/types/users.types';
 import UserDetailCard from '../../components/UserDetailCard/UserDetailCard';
-import { BackButton } from './UserDetail.style';
+import { BackButton, DetailsContainer } from './UserDetail.style';
 
 export function UserDetail() {
     const { id } = useParams<{ id: string }>(); 
@@ -13,9 +13,9 @@ export function UserDetail() {
     if (!user) return <div>Usuário não encontrado.</div>;
 
     return (
-        <>
+        <DetailsContainer>
             <BackButton to="/">Voltar</BackButton>
             <UserDetailCard user={user} />
-        </>
+        </DetailsContainer>
     );
 }

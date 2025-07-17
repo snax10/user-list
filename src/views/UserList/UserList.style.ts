@@ -29,19 +29,19 @@ export const Header = styled.header`
 
 
 export const UserListContainer = styled.div`
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: #F9F9F9;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px; 
-    
-    max-height: 800px; 
-    overflow-y: auto; 
+
+    ul {
+        width: 100%;
+    }
 `;
 
 
@@ -77,6 +77,7 @@ export const UserListItem = styled.li`
 `;
 
 export const UserListLink = styled(Link)`
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-decoration: none;

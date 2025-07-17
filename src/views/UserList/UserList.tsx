@@ -33,7 +33,7 @@ export function UserList() {
     }, [dispatch]);
 
     if (loading) return (
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
+        <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
             <FaSpinner style={{ marginRight: '10px', animation: 'spin 1s linear infinite', color: '#007bff', fontSize: '3rem' }} />
         </div>
     );
@@ -68,7 +68,7 @@ export function UserList() {
                     <ul>
                         {filteredUsers.map(({ id, name, email, phone }: User) => (
                             <UserListItem key={id}>
-                                <UserListLink to={`/user/${id}`}>{name} - {email}</UserListLink>
+                                <UserListLink to={`/user/${id}`}>{name} - {email} - {phone}</UserListLink>
                                 <FaStar
                                     style={{
                                         cursor: 'pointer',
@@ -83,6 +83,7 @@ export function UserList() {
                 </UserListContainer>
                 )
             }
+
             <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
                 <Favorites />
             </Modal>
